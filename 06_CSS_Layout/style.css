@@ -1,0 +1,30 @@
+ .flex, .c1{
+            border: 2px solid blue;
+            padding: 10px;
+            margin-bottom: 5px;
+            display: flex;
+            flex: 1;
+            margin-right: 5px;
+        }
+.box, .b1{
+            border: 2px solid crimson;
+            padding: 10px;
+            margin-bottom: 5px;
+            float: left;
+            width: 24.5%;
+            box-sizing: border-box;
+            margin-right: 5px;
+}
+.box{
+            width: 100%;
+            box-sizing: border-box;
+}
+.grid, .g1{
+            border: 2px solid seagreen;
+            padding: 10px;
+            margin-bottom: 5px;
+            display: grid;
+            grid-template-rows: 60px;
+            grid-template-columns: 25% 25% 25% 25%;
+            margin-right: 5px;
+}
