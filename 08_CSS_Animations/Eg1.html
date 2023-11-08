@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        div{
+            border: 2px solid blue;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+        div:first-child{
+            /* moving x axis */
+            transform: translate(100px);
+
+             /* moving x axis and y axis */
+            transform: translate(100px, 400px);
+
+            /* moving y axis */
+            transform: translate(0px, 300px);
+
+        }
+
+        div:nth-child(2):hover{
+            /* for zoom in we use sale */
+            /* scale(width, height); */
+            transform: scale(1.01, 3.0);
+        }
+
+        div:nth-child(3):hover{
+            /* skew(x, y) */
+            transform: skew(2deg, 5deg);
+        }
+        div:nth-child(4):hover{
+            transform: rotate(90deg);
+            margin-top: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div>One</div>
+    <div>Two</div>
+    <div>Three</div>
+    <div>Four</div>
+</body>
+</html>
